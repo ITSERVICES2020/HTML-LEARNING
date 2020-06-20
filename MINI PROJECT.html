@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COMPANY WEBSITE</title>
+    <style>
+        body{
+            font-family: Arial;
+            margin: 0px;
+        }
+        header ,footer{
+            background: white url("img/image2.jpg")scroll no-repeat bottom;
+            text-align: center;padding: 10px;
+            background-size: cover;color: white;
+
+
+        }
+        footer{
+            line-height: 10px;
+        }
+        /*---main navigation*/
+        nav{
+            background-color: #182020;overflow: hidden;
+
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 15px 15px;
+            font-size: 18px;
+            display:inline-block;
+        }
+        nav ul li a:hover{
+            background-color: darkblue;
+        }
+        nav ul li a.active{
+            background-color: green;
+        }
+        /*--sidebar---*/
+        aside{
+
+            float: left;
+            width: 200px;
+           height: 350px;
+
+            text-align: center;
+        }
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 15px 25px;
+            display: block;
+        }
+        aside ul li a:hover{
+            background-color: darkblue;
+            color: white;
+        }
+        /*--main comntent section---*/
+        section{
+            margin-left: 200px;
+            border-left: 2px solid green;
+            padding: 10px;
+        }
+        details{
+            background-color: orange;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 15px;
+        }
+        article{
+            background-color: indigo;
+            color: black;
+            padding: 10px;
+            border-radius: 50px;
+
+        }
+        summary{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+<!---MAIN HEADER--->
+    <header>
+        <h1 align="center">UI SMART WAY OF LEARNING</h1>
+    <P align="center">ui technologies smart way of learning</P>
+    </header>
+<!--main navigation--->
+<nav>
+    <ul>
+        <li>
+            <a href="#" class="active">HOME</a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="#" >ABOUT US</a>
+        </li>
+    </ul><ul>
+    <li>
+        <a href="#" >CONTACT US</a>
+    </li>
+</ul><ul>
+    <li>
+        <a href="#">CARRERS</a>
+    </li>
+</ul><ul>
+    <li>
+        <a href="#"">COURSES</a>
+    </li>
+</ul>
+</nav>
+<!--sidebar section--->
+<aside>
+    <ul>
+        <li>
+            <a href="#">HTML</a>
+        </li>
+        <li>
+            <a href="#">JAVA</a>
+        </li>
+        <li>
+            <a href="#">JQUERY</a>
+        </li>
+        <li>
+            <a href="#">AJAX</a>
+        </li>
+        <li>
+            <a href="#">CSS</a>
+        </li>
+        <li>
+            <a href="#">ANGULARJS</a>
+        </li>
+        <li>
+            <a href="#">TYPESCRIPT</a>
+        </li>
+    </ul>
+</aside>
+<!---MAIN CONTENT--->
+<section>
+    <!--HTML-->
+    <details>
+        <summary>HTML</summary>
+        <article>
+            <h3>HTML</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad amet aspernatur aut commodi cum excepturi expedita iure officiis, quas, qui quos repudiandae similique tempore veritatis? Asperiores eaque inventore quis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam culpa cumque cupiditate dolorem est exercitationem facere, illo necessitatibus nemo possimus quae quibusdam quis quo quod voluptas voluptatum. Incidunt, rem?</p>
+        </article>
+    </details>
+    <!--java-->
+    <details>
+        <summary>JAVA</summary>
+        <article>
+            <h3>JAVA</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad amet aspernatur aut commodi cum excepturi expedita iure officiis, quas, qui quos repudiandae similique tempore veritatis? Asperiores eaque inventore quis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam culpa cumque cupiditate dolorem est exercitationem facere, illo necessitatibus nemo possimus quae quibusdam quis quo quod voluptas voluptatum. Incidunt, rem?</p>
+        </article>
+    </details>
+    <!--JQUERY-->
+    <details>
+        <summary>JQUERY</summary>
+        <article>
+            <h3>JQUERY</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad amet aspernatur aut commodi cum excepturi expedita iure officiis, quas, qui quos repudiandae similique tempore veritatis? Asperiores eaque inventore quis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam culpa cumque cupiditate dolorem est exercitationem facere, illo necessitatibus nemo possimus quae quibusdam quis quo quod voluptas voluptatum. Incidunt, rem?</p>
+        </article>
+    </details>
+    <!--AJAX-->
+    <details>
+        <summary>AJAX</summary>
+        <article>
+            <h3>AJAX</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad amet aspernatur aut commodi cum excepturi expedita iure officiis, quas, qui quos repudiandae similique tempore veritatis? Asperiores eaque inventore quis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam culpa cumque cupiditate dolorem est exercitationem facere, illo necessitatibus nemo possimus quae quibusdam quis quo quod voluptas voluptatum. Incidunt, rem?</p>
+        </article>
+    </details>
+    <!--CSS-->
+    <details>
+        <summary>CSS</summary>
+        <article>
+            <h3>CSS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad amet aspernatur aut commodi cum excepturi expedita iure officiis, quas, qui quos repudiandae similique tempore veritatis? Asperiores eaque inventore quis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam culpa cumque cupiditate dolorem est exercitationem facere, illo necessitatibus nemo possimus quae quibusdam quis quo quod voluptas voluptatum. Incidunt, rem?</p>
+        </article>
+    </details>
+    <!--ANGULARJS-->
+    <details>
+        <summary>ANGULARJS</summary>
+        <article>
+            <h3>ANGULARJS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad amet aspernatur aut commodi cum excepturi expedita iure officiis, quas, qui quos repudiandae similique tempore veritatis? Asperiores eaque inventore quis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam culpa cumque cupiditate dolorem est exercitationem facere, illo necessitatibus nemo possimus quae quibusdam quis quo quod voluptas voluptatum. Incidunt, rem?</p>
+        </article>
+    </details>
+    <!--TYPESCRIPT-->
+    <details>
+        <summary>TYPESCRIPT</summary>
+        <article>
+            <h3>TYPESCRIPT</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad amet aspernatur aut commodi cum excepturi expedita iure officiis, quas, qui quos repudiandae similique tempore veritatis? Asperiores eaque inventore quis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam culpa cumque cupiditate dolorem est exercitationem facere, illo necessitatibus nemo possimus quae quibusdam quis quo quod voluptas voluptatum. Incidunt, rem?</p>
+        </article>
+    </details>
+</section>
+<!--FOOTER--->
+<footer>
+    <h2>COPYRIGHT &copy 2020</h2>
+    <p>ALL RIGHT RESERVED</p>
+    <small>DEVELOPED BY PRUDHVI RAJ</small>
+</footer>
+</body>
+</html>

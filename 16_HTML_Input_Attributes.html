@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML FORM INPUT ATTRIBUTES</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div {
+            background-color: green;color: black;font-family: "Comic Sans MS";margin: 5px;
+            border-radius: 5px ;border: darkblue;padding: 10px;width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+<!--INPUT ATTRIBUTES VALUW, READONLY,SIZE,ROWS,COLUMNS -->
+<!--VALUE---><div align="center">
+    <form>
+        <label>USERNAME</label>
+        <input type="text" value="prudhviraj">
+    </form>
+</div>
+<!-- READONLY-->
+<div>
+    <form>
+        <label>READONLY</label>
+        <input type="text" value="prudhviraj"readonly>
+    </form>
+</div>
+<!-- DISABLE-->
+<div>
+    <form>
+        <label>DISABLED</label>
+        <input type="text" value="prudhviraj"disabled>
+    </form>
+</div>
+<!-- READONLY-->
+<div>
+    <form>
+        <label>SIZE</label>
+        <input type="text" value="prudhviraj"SIZE="50">
+    </form>
+</div>
+<!-- ROWS COLUMNS-->
+<div>
+    <form>
+        <label>YOUR MESSAGE</label>
+        <textarea rows="5" cols="30"></textarea>
+    </form>
+</div>
+<!--HTML 5 ATTRIBUTES--->
+<h3>HTML 5 ATTRIBUTES</h3>
+<!---REQUIRED-->
+<div>
+    <form>
+        <label>USER NAME*</label>
+        <input type="text" required>
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+<!-- no validate-->
+<div>
+    <form novalidate>
+        <label>
+            ENTER YOUR EMAIL
+        </label>
+        <input type="email">
+        <INPUT TYPE="submit" value="Submit">
+    </form>
+</div>
+<!---autofocus--->
+<div>
+    <form novalidate>
+        <label>
+            ENTER YOUR EMAIL
+        </label>
+        <input type="text" autofocus>
+        <INPUT TYPE="submit" value="Submit">
+    </form>
+</div>
+<!--pattern-->
+<<div>
+    <form>
+        <label>TWITTER USERNAME</label>
+        <input type="text" pattern="^[A-Za-z0-9_]{1,15}$
+">
+        <input autofocus align="center" type="submit" value="Submit">
+    </form>
+</div>
+<!--placeholder-->
+<div>
+    <form>
+        <input type="text" placeholder="ENTER YOUR NAME">
+        <INPUT TYPE="submit" value="Submit">
+
+    </form>
+</div>
+<br><br><br>
+</body>
+</html>

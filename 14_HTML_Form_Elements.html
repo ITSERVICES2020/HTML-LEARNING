@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML FORM ELEMENTS</title>
+    <style>
+        div{
+            background-color: orange;
+            font-family: "Comic Sans MS";width: 70%;padding: 10px;
+            margin: 20px;
+
+        }
+    </style>
+</head>
+<body>
+
+    <!--INPUT AND LABEL-->
+<div align="center">
+    <form>
+    <label for="username">USERNAME</label>
+    <input type="text"id="username">
+    <br>
+    <label for="password">PASSWORD</label>
+    <input type="password"id="password">
+        <br>
+        <br>
+        <input align="center" type="submit" value="Submit">
+    </form>
+</div>
+    <div>
+<h2 align="center">TABLE FORM</h2>
+<table align="center">
+    <form>
+        <tr>
+            <td><label for="username">USERNAME</label>
+                <input type="text"id="username">
+                <br>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">PASSWORD</label>
+                <input type="password"id="password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input align="right" type="submit" value="Submit">
+            </td>
+        </tr>
+    </form>
+</table>
+    </div>
+    <br>
+<!---SELECT AND OPTION---->
+<div>
+    <form>
+        <label>SELECT A LANGUAGE</label>
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JAVASCRIPT</option>
+            <option>JQUERY</option>
+            <option>ANJULARJS</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JAVASCRIPT</option>
+            <option>JQUERY</option>
+            <option>ANJULARJS</option>
+        </select>
+    </form>
+</div>
+    <br>
+<div>
+    <form>
+        <label>ENTER YOUR MESSAGE</label>
+        <textarea rows="10"cols="20"></textarea>
+        <input align="center" type="submit" value="Submit">
+
+    </form>
+</div>
+<br><br><br>
+<div>
+    <form>
+        <label>SELECT A LANGUAGE</label>
+        <input list="technologies" name="tech">
+        <datalist id="technologies">
+
+            <option value="HTML"></option>
+            <option value="HTML5"></option>
+            <option value="JQUERY"></option>
+            <option value="CSS"></option>
+            <option value="JAVA"></option>
+            <option value="JSCRIPT"></option>
+            <option value="ANGULAR JS"></option>
+            <option value="NODE JS"></option>
+            <option value="HTML"></option>
+            <option value="HTML"></option>
+
+        </datalist>
+        <input  type='submit' value="Submit">
+
+    </form>
+</div>
+</body>
+</html>

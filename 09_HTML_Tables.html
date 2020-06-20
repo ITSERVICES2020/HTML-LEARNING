@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML TABLE TAGS</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+
+        }
+        table ,th,td{
+            border: 2px solid green;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 20px;
+        }
+        #custom-table thead{background-color: red;color: white;}
+        #custom-table td{
+            background-color: black;color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple table        simple table -->
+
+        <!--table row span -->
+        <!--table col span -->
+        <!--custom table with css -->
+    <h2 align="center">SIMPLE DEMO TABLE FOR PRACTISE</h2>
+   <table width="100%">
+       <thead>
+       <tr>
+           <th>SNO</th>
+           <TH>NAME</TH>
+           <TH>ADDRESS</TH>
+           <TH>PHONE NUMBER</>
+           <TH>EMAIL ADDRESS</TH>
+       </tr>
+       </thead>
+       <tbody>
+       <TR>
+           <TD>1</TD>
+           <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+       </TR>
+       <TR>
+           <TD>2</TD>
+           <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+       </TR><TR>
+           <TD>3</TD>
+           <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+       </TR><TR>
+           <TD>4</TD>
+           <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+       </TR><TR>
+           <TD>5</TD>
+           <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+       </TR><TR>
+           <TD>6</TD>
+           <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+       </TR><TR>
+           <TD>7</TD>
+           <td>prudhvi</td>
+           <td>9849994156</td>
+           <td>9849994156</td><td>9849994156</td>
+
+       </TR>
+       </tbody
+>
+   </table>
+<!--TABLE WITN COLOUMN SPAN-->
+<H2 align="CENTER">TABLE WITH THE COL SPAN</H2>
+    <table width="100%">
+        <thead>
+        <tr>
+            <th>SNO</th>
+            <TH>NAME</TH>
+            <TH COLSPAN="3">ADDRESS PHONE NUMBER EMAIL</TH>
+
+        </tr>
+        </thead>
+        <tbody>
+        <TR>
+            <TD>1</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR>
+        <TR>
+            <TD>2</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD>3</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD>4</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD>5</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD>6</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD>7</TD>
+            <td>prudhvi</td>
+            <td>9849994156</td>
+            <td>9849994156</td><td>9849994156</td>
+
+        </TR>
+        </tbody
+        >
+    </table>
+<!--TABLES WITH THE ROW SPAN-->
+<h2 ALIGN="CENTER">TABLES WITH THE ROW SPAN</h2>
+    <table width="100%">
+        <thead>
+        <tr>
+            <th>SNO</th>
+            <TH>NAME</TH>
+            <TH>ADDRESS</TH>
+            <TH>PHONE NUMBER</>
+            <TH>EMAIL ADDRESS</TH>
+        </tr>
+        </thead>
+        <tbody>
+        <TR>
+            <TD rowspan="2">1</TD>
+             <td>9849994156</td><td>9849994156</td> <td>9849994156</td> <td>9849994156</td>
+
+        </TR>
+        <TR>
+
+             <td>9849994156</td><td>9849994156</td> <td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD rowspan="2">2</TD>
+            <td>9849994156</td><td>9849994156</td> <td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <td>9849994156</td><td>9849994156</td> <td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD rowspan="3">3</TD>
+              <td>9849994156</td><td>9849994156</td> <td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <td>9849994156</td><td>9849994156</td> <td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+
+            <td>9849994156</td>
+            <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR>
+        </tbody
+        >
+    </table>
+<!--CUSTOM TABLES WITH CSS-->
+<h2 ALIGN="CENTER">CUSTOM TABLES WITH CSS</h2>
+    <table width="100%" id="custom-table">
+        <thead>
+        <tr>
+            <th>SNO</th>
+            <TH>NAME</TH>
+            <TH>ADDRESS</TH>
+            <TH>PHONE NUMBER</>
+            <TH>EMAIL ADDRESS</TH>
+        </tr>
+        </thead>
+        <tbody>
+        <TR>
+            <TD>1</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR>
+        <TR>
+            <TD>2</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD>3</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD>4</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD>5</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD>6</TD>
+            <td>prudhvi</td>  <td>9849994156</td><td>9849994156</td> <td>9849994156</td>
+
+        </TR><TR>
+            <TD>7</TD>
+            <td>prudhvi</td>
+            <td>9849994156</td>
+            <td>9849994156</td><td>9849994156</td>
+
+        </TR>
+        </tbody
+        >
+    </table>
+</body>
+</html>
